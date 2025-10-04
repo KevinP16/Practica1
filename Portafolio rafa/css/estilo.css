@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background: rgb(89, 159, 205);
+}
+h1,h2{
+    font-family: "Montserrat", sans-serif;
+}
+p{
+    font-family: "Montserrat", sans-serif;
+}
+
+header{
+    text-align: center;
+    border-bottom: solid 6px rgb(84, 84, 186);
+    margin-bottom: 50px; /*margen del boder hacia fuera*/
+    padding: 50px;
+}
+
+#foto-perfil{
+    border: solid rgb(#1349c5) 100px;
+    border-radius: 10px;
+}
+
+article{
+    border: solid red 2px;
+    width: 30%;
+    float: left;
+}
